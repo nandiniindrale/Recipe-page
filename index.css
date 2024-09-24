@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inconsolata:wght@200..900&display=swap');
+body{
+    background-color:#f8e7d4;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+  height: 2100px;
+  width:800px;
+  background-color:white;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+
+.img-container img{
+    width:700px;
+    height:350px;
+    border-radius: 10px;
+    margin-top:50px;
+    margin-left:50px;
+}
+
+h1{
+    margin-left: 50px;
+    
+}
+.paragraph{
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+}
+
+.list{
+    font-weight: bold;
+}
+
+h2{
+    margin-top: 50px;
+    margin-left: 60px;
+    color: purple;
+}
+.preparation-list{
+    margin-left:40px;
+    line-height: 40px;
+    font-size:larger;
+}
+
+.heading{
+    color:rgb(114, 45, 5);
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top:50px ;
+}
+
+.ingredients-list{
+    margin-left: 30px;
+    line-height: 30px;
+    font-size:larger;
+}
+
+.instruction-list{
+    margin-left: 30px;
+    line-height: 40px;
+    font-size:larger; 
+}
+
+.footer{
+margin-left: 50px;
+font-size:larger;
+
+}
+
+
+
+.nutrition-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-left:70px;
+}
+
+.nutrition-table td {
+    padding: 10px 0;
+    font-size: 20px;
+    color: #333;
+    border-top: 1px solid #e5e5e5; 
+}
+
+.nutrition-table td.value {
+    text-align: right;
+    font-weight: bold;
+    color: #a0522d; 
+}
